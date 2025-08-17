@@ -1,0 +1,27 @@
+#local_backend: true
+backend:
+  #name: git-gateway
+  name: github
+  repo: PMerka/d-pod-nebem
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: public/upload
+public_folder: upload
+collections:
+  - name: "main"
+    editor:
+      preview: false
+    label: "Home page"
+    files:
+      - label: "Metadata"
+        name: "metadata"
+        file: "content/homepage/metadata.json"
+        fields:
+          - { label: "title", name: "title", widget: "string" }
+          - { label: "favicon", name: "favicon", widget: "image" }
+      #-----Úvodní sekce-----
+      - label: "Úvodní sekce"
+        name: "home"
+        file: "content/homepage/heroSection.json"
+        fields:
+          - { label: "Nadpis", name: "title", widget: "string" }
+  - name: "article"
