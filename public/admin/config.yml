@@ -2,7 +2,7 @@
 backend:
   #name: git-gateway
   name: github
-  repo: PMerka/lenka-merkova-portfolio
+  repo: PMerka/d-pod-nebem
   branch: master # Branch to update (optional; defaults to master)
 media_folder: public/upload
 public_folder: upload
