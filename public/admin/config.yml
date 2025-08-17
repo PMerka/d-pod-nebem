@@ -1,8 +1,8 @@
 #local_backend: true
 backend:
   #name: git-gateway
-  name: git-gateway
-  repo: PMerka/d-pod-nebem
+  name: github
+  repo: PMerka/lenka-merkova-portfolio
   branch: master # Branch to update (optional; defaults to master)
 media_folder: public/upload
 public_folder: upload
