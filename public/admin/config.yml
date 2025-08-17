@@ -24,4 +24,3 @@ collections:
         file: "content/homepage/heroSection.json"
         fields:
           - { label: "Nadpis", name: "title", widget: "string" }
-  - name: "article"
